@@ -165,6 +165,8 @@ public class PacMan extends JPanel {
             }
         }
 
+    }
+    public void paintComponent(){
         
     }
 }

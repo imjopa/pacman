@@ -166,7 +166,12 @@ public class PacMan extends JPanel {
         }
 
     }
-    public void paintComponent(){
-        
+    public void paintComponent(Graphics g){
+        super.paintComponent(g);
+        draw(g);  
+    }
+
+    public void draw(Graphics g){
+        g.fillRect(pacman.x, pacman.y, pacman.width, pacman.height);
     }
 }
